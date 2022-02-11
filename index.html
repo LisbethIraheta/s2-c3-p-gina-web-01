@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio web</title>
+</head>
+    
+<body>
+    <h1>Mi sitio web personal</h1>
+    <p><b> ipsum dolor sit amet consectetur adipisicing elit. Asperiores hic maiores magnam quia enim 
+        earum nam odio ad quisquam quaerat nobis iure dignissimos, quod consequuntur rem a sed officiis ut.</b></p>
+    <a href="http://">this is my link</a>
+    <a href="#S2">ir al subtema(h2) </a>
+
+
+    <h1>Hola, mundo. Este es un tema (h1)</h1>
+    <p>Lorem ipsum, <i>dolor sit amet</i> consectetur adipisicing elit. Explicabo modi error optio, officiis 
+        enim sit ipsam laudantium voluptate cumque amet doloremque ducimus possimus dicta blanditiis 
+        aliquid labore dolor atque laboriosam.</p>
+    <a href="http://">así se pone un link</a>
+
+
+    <h2 id="S2"> Hola, mundo. Este es un subtema (h2)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt est vel neque molestias
+         fuga inventore provident distinctio facilis fugiat atque nisi corrupti placeat quas quis 
+         pariatur, libero, nulla, doloribus ex.</p>
+    <a href="http://">otro link</a>
+
+    <h3>Hola, mundo.Este es un subtema del subtema (h3)</h3>
+    <blockquote>así es como se realiza una cita: <i> "si todos vendieramos nuestras experiencias por lo
+        que nos costaron, todos seríamos millonarios".</i> 
+        (PD: las comillas y el italic se las agrega uno ) </blockquote>
+    <ol>
+        <li>carne</li>
+        <li>pescado</li>
+        <li>pollo</li>
+    </ol>
+<!--Los comentarios en html se ponen así-->
+<!--Se puede poner un link para ir a una parte específica de la página 
+    Para eso hay que ponerle un id a esa parte y después crear el link-->
+
+
+<!--Se pueden insertar imágenes de distintas formas-->
+<!--Una de ellas con el url de la imagen
+    Le puedo agregar las dimensiones con height="" y width=""-->
+<img src="https://i1.sndcdn.com/artworks-HYIbACYILW6oIsv6-Vtayxw-t500x500.jpg" alt="Dazai">
+
+<img src="https://c.tenor.com/59P-rxp0oHsAAAAd/dazai-bungou-stray-dogs.gif" alt="Dazai gif", width="251", height="320">
+
+<!--La función para insertar imágenes debería de funcionar con estos formatos:
+    APNG    Animated portable network graphics      .apng
+    GIF     Graphics Interchange Program            .gif
+    ICO     Microsoft Icon                          .ico, .sur
+    JPEG    Joint Photographic Experts Group        .jpg, .jipeg, .jfif, .pjpeg
+    PNG     Portable Graphics Format                .png
+    SVG     Scalable Vector Graphics                .svg
+-->
+<!--Otra función muy usada en html es la de crear formularios-->
+<h1>por favor deje sus datos de contacto</h1>
+<form action="">
+    <fieldset>
+        <label for="nombre">nombre: </label>
+        <input type="text" name="nombre" id="nombre">
+    </fieldset>
+    <fieldset>
+        <label for="email">email: </label>
+        <input type="email" name="email" id="email">
+    </fieldset>
+    <fieldset>
+        <label for="descripcion">descripción: </label>
+        <textarea name="descripcion" id="descripcion" cols="30" rows="8"></textarea>
+    </fieldset>
+    <input type="submit" value="Enviar">
+    
+</form>
+
+
+</body>
+</html>
